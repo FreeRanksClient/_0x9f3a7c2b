@@ -1,1 +1,284 @@
-[]
+{
+  "ranks": [
+    {
+      "id": "freeranksclient",
+      "show": true,
+      "bgColor": "#cc66ff",
+      "special": true,
+      "chatrank": [
+        "<span style=\"color: #cc66ff\">[</span>",
+        "<i class=\"fas fa-zap\" style=\"color: #ba55d3;\"></i>",
+        "<span style=\"color: #cc66ff\">Free Ranks Client] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-zap\" style=\"color: #ba55d3; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-zap\" style=\"color: #ba55d3;\"></i>"
+      ],
+      "customClass": "bloxd-rank-clientowner",
+      "nameTagRank": {
+        "icon": "zap",
+        "mainRGB": "#cc66ff",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#ba55d3"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "unloaded",
+      "show": true,
+      "bgColor": "#ffffff",
+      "special": true,
+      "chatrank": [
+        "<span style=\"color: #ff00ff\">[</span>",
+        "<svg style=\"display: inline-block; vertical-align: middle; width: 1em; height: 1em; margin: 0 0.1em;\" viewBox=\"0 0 64 64\"><rect width=\"64\" height=\"64\" fill=\"#000000\"/><polygon points=\"0,0 32,0 32,32 64,32 64,64 32,64 32,32 0,32\" fill=\"#ff00ff\"/></svg>",
+        "<span style=\"color: #ff00ff\">UNLOADED] </span>"
+      ],
+      "menurank": [
+        "<svg style=\"display: block; width: 1.5em; height: 1.5em; margin: 0 auto;\" viewBox=\"0 0 64 64\"><rect width=\"64\" height=\"64\" fill=\"#000000\"/><polygon points=\"0,0 32,0 32,32 64,32 64,64 32,64 32,32 0,32\" fill=\"#ff00ff\"/></svg>"
+      ],
+      "namerank": [
+        "<svg style=\"display: inline-block; vertical-align: middle; width: 1em; height: 1em;\" viewBox=\"0 0 64 64\"><rect width=\"64\" height=\"64\" fill=\"#000000\"/><polygon points=\"0,0 32,0 32,32 64,32 64,64 32,64 32,32 0,32\" fill=\"#ff00ff\"/></svg>"
+      ],
+      "customClass": "bloxd-rank-unloaded",
+      "nameTagRank": {
+        "icon": "x",
+        "mainRGB": "#ff00ff",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#000000"
+      },
+      "useFunction": "CreateUnloadedRankVisuals"
+    },
+    {
+      "id": "verified",
+      "show": true,
+      "bgColor": "#1360c8",
+      "special": true,
+      "chatrank": [
+        "<span style=\"color: #1360c8\">[</span>",
+        "<i class=\"fas fa-check\" style=\"color: #ffffff;\"></i>",
+        "<span style=\"color: #1360c8\">Verified] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-check\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-check\" style=\"color: #1360c8;\"></i>"
+      ],
+      "customClass": "bloxd-rank-verified",
+      "nameTagRank": {
+        "icon": "check",
+        "mainRGB": "#1360c8",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#145ab8"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "coder",
+      "show": true,
+      "bgColor": "#a4a4a4",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #a4a4a4\">[</span>",
+        "<i class=\"fas fa-pen-to-square\" style=\"color: #ffffff;\"></i>",
+        "<span style=\"color: #a4a4a4\">Coder] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-pen-to-square\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-pen-to-square\" style=\"color: #a4a4a4;\"></i>"
+      ],
+      "customClass": "bloxd-rank-coder",
+      "nameTagRank": {
+        "icon": "pen-to-square",
+        "mainRGB": "#a4a4a4",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#838383"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "skywars",
+      "show": true,
+      "bgColor": "#00ffff",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #00ffff\">[</span>",
+        "<i class=\"fas fa-star\" style=\"color: #00eeee;\"></i>",
+        "<span style=\"color: #00ffff\">SkyWars</span>",
+        "<span style=\"color: #00ffff\">] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-star\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-star\" style=\"color: #00ffff;\"></i>"
+      ],
+      "customClass": "bloxd-rank-skywars",
+      "nameTagRank": {
+        "icon": "star",
+        "mainRGB": "#00ffff",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#00eeee"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "bedwars",
+      "show": true,
+      "bgColor": "#dd0000",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #dd0000\">[</span>",
+        "<i class=\"fas fa-cube\" style=\"color: #bb0000;\"></i>",
+        "<span style=\"color: #dd0000\">BedWars</span>",
+        "<span style=\"color: #dd0000\">] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-cube\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-cube\" style=\"color: #dd0000;\"></i>"
+      ],
+      "customClass": "bloxd-rank-bedwars",
+      "nameTagRank": {
+        "icon": "cube",
+        "mainRGB": "#dd0000",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#bb0000"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "owner",
+      "show": true,
+      "bgColor": "#ffb914",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #ffb914\">[</span>",
+        "<i class=\"fas fa-crown\" style=\"color: #ffb914;\"></i>",
+        "<span style=\"color: #ffb914\">Owner</span>",
+        "<span style=\"color: #ffb914\">] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-crown\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-crown\" style=\"color: #ffb914;\"></i>"
+      ],
+      "customClass": "bloxd-rank-owner",
+      "nameTagRank": {
+        "icon": "crown",
+        "mainRGB": "#ffb914",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#edad15"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "developer",
+      "show": true,
+      "bgColor": "#a4a4a4",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #cef3ff\">[</span>",
+        "<i class=\"fas fa-wrench\" style=\"color: #a4a4a4;\"></i>",
+        "<span style=\"color: #cef3ff\">Dev] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-wrench\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-wrench\" style=\"color: #a4a4a4;\"></i>"
+      ],
+      "customClass": "bloxd-rank-developer",
+      "nameTagRank": {
+        "icon": "wrench",
+        "mainRGB": "#a4a4a4",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#838383"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "admin",
+      "show": true,
+      "bgColor": "#556c7d",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #cef3ff\">[</span>",
+        "<i class=\"fas fa-person-military-pointing\" style=\"color: #556c7d;\"></i>",
+        "<span style=\"color: #cef3ff\">Admin] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-person-military-pointing\" style=\"color: #cef3ff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-person-military-pointing\" style=\"color: #556c7d;\"></i>"
+      ],
+      "customClass": "bloxd-rank-admin",
+      "nameTagRank": {
+        "icon": "person-military-pointing",
+        "mainRGB": "#556c7d",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#435562"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "youtuber",
+      "show": true,
+      "bgColor": "#ff0000",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #ffffff\">[</span>",
+        "<i class=\"fab fa-youtube\" style=\"color: #ff0000;\"></i>",
+        "<span style=\"color: #ffffff\">You</span>",
+        "<span style=\"color: #ff0000\">Tube</span>",
+        "<span style=\"color: #ffffff\">] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fab fa-youtube\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fab fa-youtube\" style=\"color: #ff0000;\"></i>"
+      ],
+      "customClass": "bloxd-rank-youtuber",
+      "nameTagRank": {
+        "icon": "youtube",
+        "mainRGB": "#ff0000",
+        "iconLibrary": "fab",
+        "iconShadowRGB": "#cc0000"
+      },
+      "useFunction": ""
+    },
+    {
+      "id": "super",
+      "show": true,
+      "bgColor": "#ffcc00",
+      "special": false,
+      "chatrank": [
+        "<span style=\"color: #ffcc00\">[</span>",
+        "<i class=\"fas fa-zap\" style=\"color: #ffcc00;\"></i>",
+        "<span style=\"color: #ffcc00\">Super] </span>"
+      ],
+      "menurank": [
+        "<i class=\"fas fa-zap\" style=\"color: #ffffff; font-size: 150%;\"></i>"
+      ],
+      "namerank": [
+        "<i class=\"fas fa-zap\" style=\"color: #ffcc00;\"></i>"
+      ],
+      "customClass": "bloxd-rank-super",
+      "nameTagRank": {
+        "icon": "zap",
+        "mainRGB": "#ffcc00",
+        "iconLibrary": "fas",
+        "iconShadowRGB": "#eea020"
+      },
+      "useFunction": "CreateSuperRankVisuals"
+    }
+  ]
+}
